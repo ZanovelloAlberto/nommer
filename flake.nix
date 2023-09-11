@@ -104,7 +104,7 @@
 
           };
         });
-      defaultTemplate = {
+      templates.default = {
         path = ./.;
         description = "ciao";
 
@@ -115,7 +115,7 @@
 
 
         default = pkgs.nuenv.mkDerivation
-          rec {
+          {
             name = "due";
             src = ./.;
             inherit system;
