@@ -104,6 +104,11 @@
 
           };
         });
+      defaultTemplate = {
+        path = ./.;
+        description = "ciao";
+
+      };
 
 
       packages = forAllSystems ({ pkgs, system }: {
