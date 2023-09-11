@@ -4,6 +4,8 @@ ghc-pkg create a database probably stored in the ghc package.
 i can create a local one and load deps locally with 
 command `ghc-pkg register /nix/store/...`.
 
+hoogle.haskell.org is used to serach the defintions of functions  
+
 # COMPLETION
 there is no go to definiton, 
 we probably need to use cabal to have that, 
