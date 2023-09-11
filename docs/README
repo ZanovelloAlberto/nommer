@@ -1,0 +1,17 @@
+# DOCS
+i get ghc dependency throught `ghc-pkg list`.
+ghc-pkg create a database probably stored in the ghc package.
+i can create a local one and load deps locally with 
+command `ghc-pkg register /nix/store/...`.
+
+# COMPLETION
+there is no go to definiton, 
+we probably need to use cabal to have that, 
+not sure nixpkgs provide source of definitions
+
+# DICT
+- stack (deps,building)
+- cabal (deps,building) 
+
+
+
